@@ -1,0 +1,217 @@
+.container-fluid {
+  background-color: rgb(158, 196, 251);
+  min-height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .my-container {
+    background-color: rgb(2, 4, 74);
+    min-height: 40rem;
+    border-radius: 15px;
+
+    .my-container2 {
+      margin-top: 2rem;
+      width: 90%;
+      .my-row {
+        .my-col1 {
+          min-height: 35rem;
+
+          h1 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            margin-top: 3rem;
+            color: white;
+          }
+
+          p {
+            width: 65%;
+            color: rgb(157, 158, 185);
+          }
+
+          .about {
+            // background-color: grey;
+            min-height: 12rem;
+            display: flex;
+            flex-direction: column;
+            margin-top: 6rem;
+            .row1 {
+              min-height: 3.5rem;
+
+              img {
+                width: 20px;
+              }
+
+              .box1 {
+                width: 16rem;
+                padding: 10px 25px;
+                border-radius: 10px;
+
+                &:hover {
+                  border: 2px solid rgb(12, 113, 249);
+                }
+                .span2 {
+                  margin-left: 20px;
+                  color: rgb(181, 182, 202);
+                }
+              }
+            }
+
+            .row2 {
+              min-height: 3.5rem;
+
+              img {
+                width: 20px;
+              }
+
+              .box2 {
+                width: 16rem;
+                padding: 10px 25px;
+                border-radius: 10px;
+                &:hover {
+                  border: 2px solid rgb(12, 113, 249);
+                }
+                .span2 {
+                  margin-left: 20px;
+                  color: rgb(181, 182, 202);
+                }
+              }
+            }
+
+            .row3 {
+              min-height: 3.5rem;
+
+              img {
+                width: 20px;
+              }
+
+              .box3 {
+                width: 16rem;
+                padding: 10px 25px;
+                border-radius: 10px;
+                &:hover {
+                  border: 2px solid rgb(12, 113, 249);
+                }
+                .span2 {
+                  margin-left: 20px;
+                  color: rgb(181, 182, 202);
+                }
+              }
+            }
+          }
+
+          .social {
+            display: flex;
+            min-height: 5rem;
+
+            .box {
+              min-width: 5rem;
+              min-height: 2rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              a {
+                img {
+                  width: 20px;
+                }
+
+                &:hover {
+                  border-radius: 50%;
+                  background-color: rgb(12, 117, 255);
+                  padding: 20px 25px;
+                }
+                transition: 0.2s;
+              }
+            }
+          }
+        }
+
+        .my-col2 {
+          min-height: 37rem;
+
+          .page {
+            background-color: #ffffff;
+            border-radius: 15px;
+            min-height: 33rem;
+            margin-top: 2rem;
+            padding: 20px 35px;
+
+            form {
+              .box1 {
+                border: 2px solid rgb(230, 230, 238);
+                border-radius: 10px;
+                padding: 10px 10px;
+
+                &:hover {
+                  border: 2px solid #4b99ff;
+
+                  i {
+                    color: #4b99ff;
+                  }
+                }
+
+                i {
+                  width: 20px;
+                  color: rgb(230, 230, 238);
+                }
+                input.name {
+                  width: 80%;
+                  height: 2rem;
+                  border: none;
+                  background-color: #ffffff;
+                  outline: none;
+                }
+              }
+
+              .box2 {
+                border: 2px solid rgb(230, 230, 238);
+                border-radius: 10px;
+                padding: 10px 10px;
+
+                &:hover {
+                  border: 2px solid #4b99ff;
+
+                  i {
+                    color: #4b99ff;
+                  }
+                }
+
+                i {
+                  width: 20px;
+                  color: rgb(230, 230, 238);
+                }
+                input.mail {
+                  width: 80%;
+                  height: 2rem;
+                  border: none;
+                  background-color: #ffffff;
+                  outline: none;
+                }
+              }
+
+              .message {
+                width: 100%;
+                min-height: 10rem;
+                padding: 20px 20px;
+                resize: none;
+                border: none;
+                outline: none;
+                background-color: rgb(249, 249, 251);
+              }
+
+              .submit {
+                margin-top: 25px;
+                padding: 15px 45px;
+                border: none;
+                border-radius: 10px;
+                background-color: rgb(12, 117, 255);
+                color: white;
+                float: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
